@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(164, 175, 224)
+}
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#to-do-list h1{
+    color: #fff;
+    padding: 20px;
+    text-transform: capitalize
+}
+
+#item-input{
+    font-size: 12px;
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    min-width: 200px;
+}
+#item-input::placeholder{
+    text-transform: capitalize;
+    text-align: center
+}
+#add-button{
+    background-color: #fff;
+    color: #000;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 10px
+}
+
+#items-list li{
+    background-color: #fff;
+    color: #000;
+    font-size: 2Opx;
+    list-style-type: none;
+    border-radius: 3px;
+    padding: 9px;
+    min-width: 180px;
+    text-align: center;
+    margin: 5px auto;
+    margin-left: -100px
+}
+
+
